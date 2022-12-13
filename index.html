@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Regra da Palavra</title>
+  </head>
+  <body>
+    <div>
+      <p class="title">Regra da Palavra<p>
+      <p class="info tit">Dificuldade:</p><p class="info ans" id="jogo">-</p>
+      <p class="info tit">Tentativas:</p><p class="info ans" id="tentativas">-</p>
+      <p class="info tit">Pontos:</p><p class="info ans" id="pts">-</p><br>
+
+      <input type="text" required="required" id="word" class="inputBox" placeholder="digite uma palavra" autocomplete="off">
+      <button type="submit" id="send" value="" class="send" onclick="Send()"></button>
+      
+      <div id="last" class="last"></div>
+      <div id="tipWords" class="tipWords">
+        <div class="howTo">
+          <p><span>Como jogar:</span><br>
+          <p>Descubra o que as palavras brancas têm em comum e digite palavras com a mesma regra.</p><br>
+          <p><span>Como vencer:</span><br>
+          <p>Para cada tentativa aparece uma nova dica branca. Descubra antes de 10 tentativas para vencer a rodada.</p><br>
+          <p><span>Exemplos:</span></p>
+          <p>Pato, Palha, Polvo: Palavra iniciadas com P</p>
+          <p>Tênis, Sair, Monitor: Palvras que contém I</p>
+        </div>
+        </div>
+        <p class="bot" id="bot"></p>
+        <script src="script.js"></script>
+      </div>
+  </body>
+</html>

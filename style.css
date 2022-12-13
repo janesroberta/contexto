@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  fonnt
+}
+
+body {
+  background-color: #293447;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.info {
+  display: inline;
+}
+
+.tit {
+  font-size: 0.8em;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+.inputBox {
+  background: #323e55;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.1em;
+  width: 310px;
+  height: 25px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.inputBox:valid,
+.inputBox:focus {
+  color: white;
+}
+
+.send {
+  display: none;
+}
+
+.checkCorrect {
+  font-size: 0.8em;
+  display: flex;
+  align-items: center;
+  color: #66e870
+}
+
+.checkWrong {
+  font-size: 0.8em;
+  display: flex;
+  align-items: center;
+  color: #ff5555
+}
+
+.checkTip {
+  font-size: 0.8em;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.tip {
+  border-radius: 5px;
+  padding: 7px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bot {
+  color: grey;
+  font-size: 0.8em;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.last {
+  color: white;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.small {
+  font-size: 0.8em;
+}
+
+.medium {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #66e870;
+}
+
+.big {
+  font-size: 1.2em;
+}
+
+.red {
+  color: #ff5555;
+}
+
+.grn {
+  color: #66e870;
+}
+
+.right {
+  border: 1px solid #66e870;
+}
+
+.dica {
+  border: 1px solid white;
+}
+
+.wrong {
+  border: 1px solid #ff5555;
+}
+
+.howTo {
+  background: #323e55;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 0.9em;
+  width: 300px;
+  line-height: 20px;
+}
+
+.howTo span {
+  color: #909090;
+  font-size: 0.8em;
+}
